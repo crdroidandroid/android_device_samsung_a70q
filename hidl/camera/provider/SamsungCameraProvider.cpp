@@ -19,6 +19,7 @@
 #include "SamsungCameraProvider.h"
 
 #include <algorithm>
+#include <numeric>
 
 using ::android::NO_ERROR;
 using ::android::OK;
@@ -43,7 +44,8 @@ SamsungCameraProvider::SamsungCameraProvider() : LegacyCameraProviderImpl_2_5() 
             }
 
 #ifdef SAMSUNG_CAMERA_DEBUG
-            ALOGI("ID=%d is at index %d", i, mNumberOfLegacyCameras);
+    mExtraIDs.resize(100);
+    std::iota(std::begin(mExtraIDs), std::end(mExtraIDs), 0);
 #endif
 
             char cameraId[kMaxCameraIdLen];
@@ -56,5 +58,3 @@ SamsungCameraProvider::SamsungCameraProvider() : LegacyCameraProviderImpl_2_5() 
         }
     }
 }
-
-SamsungCameraProvider::~SamsungCameraProvider() {}
