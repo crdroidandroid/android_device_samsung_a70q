@@ -27,7 +27,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 PRODUCT_NAME := lineage_a70q
 PRODUCT_DEVICE := a70q
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-A705FN
+PRODUCT_MODEL := SM-A705
 PRODUCT_MANUFACTURER := samsung
 
 # Use the latest approved GMS identifiers
