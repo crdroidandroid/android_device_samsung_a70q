@@ -1,0 +1,14 @@
+//
+// Copyright (C) 2023 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+// Ramdisk's Hw
+
+prebuilt_etc {
+    name: "init.a70q.rc",
+    src: "vendor/etc/init/hw/init.a70q.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
