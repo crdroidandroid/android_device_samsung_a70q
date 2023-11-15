@@ -32,5 +32,9 @@ $(call inherit-product, device/samsung/sm6150-common/sm6150.mk)
 PRODUCT_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay \
 
+# Soong Namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(DEVICE_PATH) \
+
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/samsung/a70q/a70q-vendor.mk)
