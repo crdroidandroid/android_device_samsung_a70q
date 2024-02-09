@@ -1,2 +1,10 @@
 # Bluetooth
 bluetooth.device.default_name=Galaxy A70
+
+# Fingerprint
+ro.vendor.fingerprint.force_calibrate=true
+ro.vendor.fingerprint.max_enrollments=4
+ro.vendor.fingerprint.request_touch_event=true
+ro.vendor.fingerprint.sensor_location=540|2105|90
+ro.vendor.fingerprint.supports_gestures=true
+ro.vendor.fingerprint.type=udfps_optical
