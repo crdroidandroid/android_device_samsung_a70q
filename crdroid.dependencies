@@ -1,0 +1,11 @@
+[
+  {
+    "repository": "crdroidandroid/android_device_samsung_sm6150-common",
+    "target_path": "device/samsung/sm6150-common"
+  },
+  {
+    "repository": "TheMuppets/proprietary_vendor_samsung_a70q",
+    "target_path": "vendor/samsung/a70q",
+    "branch": "lineage-21.0"
+  }
+]
