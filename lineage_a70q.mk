@@ -21,11 +21,10 @@ PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A705
 PRODUCT_MANUFACTURER := samsung
 
-BUILD_FINGERPRINT := "samsung/a70qxx/a70q:11/RP1A.200720.012/A705FNXXU5DWB4:user/release-keys"
-
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="a70qxx-user 11 RP1A.200720.012 A705FNXXU5DWB4 release-keys" \
-    PRODUCT_NAME="a70q" \
-    TARGET_DEVICE="a70q"
+    BuildDesc="a70qxx-user 11 RP1A.200720.012 A705FNXXU5DWB4 release-keys" \
+    BuildFingerprint=samsung/a70qxx/a70q:11/RP1A.200720.012/A705FNXXU5DWB4:user/release-keys \
+    DeviceProduct=a70qxx \
+    SystemName=a70qxx
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
