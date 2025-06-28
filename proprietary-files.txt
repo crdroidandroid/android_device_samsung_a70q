@@ -283,26 +283,12 @@ vendor/lib/camera/components/com.wrapper.stats.pdlib.so
 vendor/lib/hw/camera.qcom.so
 vendor/lib/hw/com.samsung.chi.override.so
 vendor/lib64/camera/com.samsung.sensor.s5kgd1.so
-vendor/lib64/camera/com.samsung.sensormodule.0_lsi_s5kgd1_dv.bin
-vendor/lib64/camera/com.samsung.sensormodule.0_lsi_s5kgd1_pv_NEW.bin
-vendor/lib64/camera/com.samsung.sensormodule.0_lsi_s5kgd1_pv_OLD.bin
-vendor/lib64/camera/com.samsung.sensormodule.2_lsi_s5k4ha.bin
-vendor/lib64/camera/com.samsung.sensormodule.3_lsi_gc5035.bin
-vendor/lib64/camera/com.samsung.tuned.gc5035.bin
-vendor/lib64/camera/com.samsung.tuned.s5k4ha.bin
-vendor/lib64/camera/com.samsung.tuned.s5kgd1.bin
-vendor/lib64/camera/com.samsung.tuned.s5kgd1_front.bin
 vendor/lib64/camera/components/com.qti.camx.chiiqutils.so
 vendor/lib64/camera/components/com.qti.node.eisv2.so
 vendor/lib64/camera/components/com.qti.node.eisv3.so
 vendor/lib64/camera/components/com.qti.node.fcv.so
 vendor/lib64/camera/components/com.qti.node.gpu.so
 vendor/lib64/camera/components/com.qti.node.swregistration.so
-vendor/lib64/camera/components/com.qti.stats.hafoverride.so
-vendor/lib64/camera/components/com.qtistatic.stats.aec.so
-vendor/lib64/camera/components/com.qtistatic.stats.af.so
-vendor/lib64/camera/components/com.qtistatic.stats.awb.so
-vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so
 vendor/lib64/camera/components/com.samsung.node.bayercheck.so
 vendor/lib64/camera/components/com.samsung.node.bayerfuse.so
 vendor/lib64/camera/components/com.samsung.node.capture_bokeh.so
@@ -318,12 +304,6 @@ vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.samsung.chi.override.so
 
 # Fingerprint
-vendor/lib/libbauthserver.so
-vendor/lib/libbauthtzcommon.so
-vendor/lib/libegis_fp_normal_sensor_test.so
-vendor/lib/libgf_in_system_lib.so
-vendor/lib/libqfp_sensortest.so
-vendor/lib/libsynaFpSensorTestNwd.so
 vendor/lib64/libbauthserver.so
 vendor/lib64/libbauthtzcommon.so
 vendor/lib64/libegis_fp_normal_sensor_test.so
